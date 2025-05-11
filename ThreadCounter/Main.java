@@ -8,8 +8,14 @@ public class Main {
         Counter cUp = new Counter(); //initalizes an up counter
         Counter cDown = new  Counter(); //initializes a down counter
 
-        //calls to 'Counter'
-        cUp.countUp();
-        cDown.countDown();
+        //thread for counting up
+        Thread c1 = new Thread(new Runnable() {
+            @Override
+            public void run () {
+                cUp.countUp();
+            }
+        });
+
+       
     }
 }

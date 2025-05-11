@@ -11,6 +11,8 @@ public class Counter {
         }
     }
 
+
+
     //counts down from 5
     public void countDown () {
         System.out.println("Counting down...");
@@ -18,5 +20,6 @@ public class Counter {
             System.out.println(i);
         }
         System.out.println("Count completed.");
+        
     }
 }
