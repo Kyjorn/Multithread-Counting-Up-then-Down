@@ -9,7 +9,7 @@ public class Counter {
         for(int i = 1; i <= 20; i++){
             try {
                 System.out.println(i);
-            Thread.sleep(255);
+            Thread.sleep(255); //timer to show the numbers counting
         } catch (InterruptedException e) {
             
         }
